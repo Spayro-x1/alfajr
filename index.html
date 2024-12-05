@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alfajr </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>موقع الفجر</h1>
+    </header>
+
+    <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">عن الموقع</a>
+        <a href="#">الخدمات</a>
+        <a href="#">اتصل بنا</a>
+    </nav>
+
+    <div class="hero-section">
+        <h2>أهلاً بكم في موقع الفجر!</h2>
+    </div>
+
+    <div class="content">
+        <section>
+            <h3 class="section-title">عن موقع الفجر</h3>
+            <p class="section-description">
+                موقع الفجر هو منصة مبتكرة توفر لك آخر الأخبار والمقالات في مجالات متعددة. نعمل على تقديم محتوى مميز
+                وفريد من نوعه لتلبية اهتمامات قرائنا الأعزاء.
+            </p>
+        </section>
+
+        <section>
+            <h3 class="section-title">خدماتنا</h3>
+            <p class="section-description">
+                نقدم مجموعة من الخدمات التي تشمل الأخبار اليومية، المقالات المتنوعة، والعديد من الموارد التعليمية
+                التي تهم زوارنا الكرام.
+            </p>
+        </section>
+    </div>
+    <!-- Widget JavaScript bundle -->
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  configId="8cdba553-26d2-45fe-9891-c3077e0c9525"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<!-- Element that opens the widget on click. It does not have to be an input -->
+<input placeholder="Search here" id="searchWidgetTrigger" />
+
+    <footer>
+        
+        <p>&copy; 2024 موقع الفجر. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
